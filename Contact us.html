@@ -1,0 +1,400 @@
+<html>
+<head>
+
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script>
+function v(){
+z=a1.value
+switch(z){
+case "home" :
+window.location="md.html"
+break;
+case "Menu" :
+window.location="md.html"
+break;
+case "Careers":
+window.location="careers.html"
+break;
+case "Contact us" :
+window.location="Contact us.html"
+break;
+case "about us" :
+window.location="about us.html"
+break;
+case "Sign For Email" :
+window.location="sign up.html"
+break;
+}
+
+
+}
+
+
+</script>
+
+<style>
+*{
+padding:0px;
+margin:0px;`
+}
+
+nav{
+height:80px;
+width:100%;
+background:#ede7e6;
+}
+nav img{
+height:80%;
+width:100px;;
+margin:10px
+}
+nav ul{
+font-size:20px;
+padding-right:160px;
+float:right;
+}
+nav ul li{
+float:left;
+width:125px;
+text-align:center;
+line-height:80px;
+list-style:none;
+}
+
+nav ul li a{
+text-decoration:none;
+color:black
+}
+nav ul li button{
+padding:5px;
+border-radius:10px;
+border:none;
+background:green;
+color:white
+}
+nav label,nav input{
+display:none
+}
+
+
+@media(max-width:1000px){
+
+nav ul{
+float:none;
+width:100%;
+position:fixed;
+top:-150%;
+transition:all 1s;
+background:linear-gradient(white,yellow);
+z-index:999
+}
+nav ul li{
+float:none;
+width:100%;
+text-align:center;
+line-height:80px;
+list-style:none;
+}
+#check:checked~ul{
+top:80px
+}
+
+nav label{
+display:block;
+float:right;
+font-size:35px;
+margin:20px
+}
+
+}
+
+.btn1{
+color:black;
+background:yellow;
+padding:20px;
+border-radius:20px;
+border:0px;
+font-family:arial;
+}
+.btn1 a{
+color:black;
+text-decoration:none;
+font-weight:bold
+}
+.btn1:hover {
+cursor:pointer;
+font-weight:bold;
+transform:scale(1.05)
+}
+
+
+
+.cnt{
+width:100%;
+height:100px;
+background-color:blu;
+}
+.cnt h1{
+padding-left:100px;
+margin-top:150px;
+}
+.cnt p{
+padding-left:50px;
+margin-top:30px;
+}
+
+.cntt{
+width:100%;
+height:700px;
+margin-top:10px;
+background-color:re;
+}
+.cntt .l{
+width:50%;
+height:700px;
+background-color:gree;
+float:left;
+}
+.cntt .r{
+width:50%;
+height:700px;
+background-color:blu;
+float:left;
+}
+.cntt .l img{
+margin-top:50px;
+margin-left:50px;
+}
+.cntt h1,p{
+margin-top:30px;
+margin-left:50px;
+}
+
+.cntt .r img{
+width:91%;
+margin-top:50px;
+}
+
+.cntt1{
+width:100%;
+height:700px;
+margin-top:10px;
+background-color:re;
+}
+.cntt1 .l1{
+width:50%;
+height:700px;
+background-color:gree;
+float:left;
+}
+.cntt1 .r1{
+width:50%;
+height:700px;
+background-color:blu;
+float:left;
+}
+.cntt1 .l1 img{
+width:90%;
+margin-top:50px;
+margin-left:50px;
+}
+.cntt1 h1,p{
+margin-top:30px;
+margin-left:50px;
+}
+
+.cntt1 .r1 img{
+width:90%;
+margin-top:50px;
+}
+
+.FF{
+width:100%;
+height:750px;
+background-color:blu;
+}
+.FF h1,input{
+font-weight:bold;
+margin-left:200px;
+}
+.FF p{
+margin-left:200px;
+text-align:left;
+text-align:justify;
+background-color:#edeae;
+}
+.FF input{
+border-radius:5px;
+border:0px;
+width:60%;
+height:50px;
+}
+.FF h4{
+text-decoration:underline; 
+margin-left:210px;
+}
+
+.footer-bottom{
+background-color:black;
+color:white;
+}
+
+
+
+
+@media(max-width:700px){
+
+
+.cnt p{
+padding-left:10px;
+margin-top:30px;
+}
+
+
+.cntt{
+width:100%;
+flex-direction:column;
+}
+.cntt .l,.r{
+width:100%;
+}
+.cntt .l img{
+width:85%;
+}
+.cntt .r img{
+width:180%;
+margin-left:40px;
+}
+
+.cntt1{
+width:100%;
+flex-direction:column;
+}
+.cntt1 .l1,.r1{
+width:100%;
+}
+.cntt1 .l1 img{
+width:85%;
+}
+.cntt1 .r1 img{
+width:180%;
+margin-left:40px;
+}
+.FF{
+margin-top:1500px;
+}
+.FF h1,input{
+margin-left:100px;
+}
+.FF p{
+margin-left:50px;
+}
+.FF h4{
+margin-left:224px;
+}
+
+.footer-bottom{
+margin-top:30px;
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+<img src="mcd.jpg"/>
+<label for="check"><i class="fa-solid fa-bars"></i></label>
+<input type="checkbox" id="check"/>
+<ul>
+<li><a href="md.html">Home</a></li>
+<li><a href="md.html">Menu</a></li>
+<li><a href="careers.html">Careers</a></li>
+<li><a href="about us.html">About us</a></li>
+<li><a href="Contact us.html">Contact us</a></li>
+<li><button><a href="sign up.html">Sign For email</a></button></li>
+<li><button style="background:yellow;color:black"><a href="#">Order Now</a></button></li>
+</ul>
+</nav>
+
+
+
+
+<div class="cnt">
+<h1>CONTACT US</h1>
+<p>Looking for nutrition information, employment details or want to contact us? Our team is happy to help you find answers.</p>
+</div>
+
+<div class="cntt">
+<div class="l">
+<img src="FAQ.jpg"/>
+<h1>Frequently Asked Questions</h1>
+<p>Don’t feel like reaching out, or think we may have already answered your question? Check out our inventory of FAQs.</p><br>
+<button class="btn1" style="margin-left:50px"><a href="#">Go to FAQs</a></button>
+</div>
+<div class="r">
+<img src="WOYM.jpg"/>
+<h1>What’s On Your Mind?</h1>
+<p>Whether you have questions, feedback or comments about something you love, we want to know. Tell us about your experience with the restaurant or the app, or reach out for customer support.</p><br>
+<button class="btn1" style="margin-left:50px"><a href="#">Contact Us</a></button>
+</div>
+</div>
+
+
+<div class="cntt1">
+<div class="l1">
+<img src="TP.jpg"/>
+<h1>Trademark Permission</h1>
+<p>Want to use our logo for a project? Make a trademark request here.</p><br>
+<button class="btn1" style="margin-left:50px"><a href="#">Make a Request</a></button>
+</div>
+<div class="r1">
+<img src="MCIAW.jpg"/>
+<h1>McDonald’s Contact Info Around the World</h1>
+<p>If you need to contact a McDonald's in another part of the world, our directory of international McDonald’s pages includes contact information at the bottom of each site.</p><br>
+<button class="btn1" style="margin-left:50px"><a href="#">Find international Contact Info</a></button>
+</div>
+</div>
+
+<div class="FF">
+
+<h1>FeedBack Details</h1><br><br>
+<input type="textbox" placeholder="Please provide detail about your feedback"/>
+<br><br><br>
+<h1>Your Info</h1><br><br>
+<input type="text" placeholder="*First Name"/><br><br>
+<input type="text" placeholder="*Last Name"/><br><br>
+<input type="text" placeholder="*Personal Email"/><br><br>
+<input type="text" placeholder="*Phone"/><br><br>
+
+<p>By selecting Submit, any information you provide to McDonald's will be used in accordance with McDonald's Privacy<br>Policy. We may contact you regarding your submission.</p><br><br>
+
+<button class="btn1" style="margin-left:200px"><a href="#">Submit</a></button><br><br>
+<h4><a href="#">Reset</a></h4>
+</div>
+
+  <div class="footer-bottom">
+      
+       
+          <div class="footer_widget">
+            <p>Connect with Us:</p>
+          <!--<ul>
+              <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>--->
+          </div>
+        
+       
+          <p class="copy-right">Copyright &copy; 2023 Mc Donald. All Rights Reserved</p>
+       
+      
+    </div>
+
+
+</body>
+</html>

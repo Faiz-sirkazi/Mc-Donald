@@ -1,0 +1,443 @@
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script>
+function v(){
+z=a1.value
+switch(z){
+case "home" :
+window.location="md.html"
+break;
+case "Menu" :
+window.location="md.html"
+break;
+case "Careers":
+window.location="careers.html"
+break;
+case "Contact us" :
+window.location="Contact us.html"
+break;
+case "about us" :
+window.location="about us.html"
+break;
+case "Sign For Email" :
+window.location="sign up.html"
+break;
+}
+
+
+}
+
+
+</script>
+
+<style>
+*{
+padding:0px;
+margin:0px;`
+}
+
+nav{
+height:80px;
+width:100%;
+background:#ede7e6;
+}
+nav img{
+height:80%;
+width:100px;;
+margin:10px
+}
+nav ul{
+font-size:20px;
+padding-right:160px;
+float:right;
+}
+nav ul li{
+float:left;
+width:125px;
+text-align:center;
+line-height:80px;
+list-style:none;
+}
+
+nav ul li a{
+text-decoration:none;
+color:black
+}
+nav ul li button{
+padding:5px;
+border-radius:10px;
+border:none;
+background:green;
+color:white
+}
+nav label,nav input{
+display:none
+}
+
+
+@media(max-width:1000px){
+
+nav ul{
+float:none;
+width:100%;
+position:fixed;
+top:-150%;
+transition:all 1s;
+background:linear-gradient(white,yellow);
+z-index:999
+}
+nav ul li{
+float:none;
+width:100%;
+text-align:center;
+line-height:80px;
+list-style:none;
+}
+#check:checked~ul{
+top:80px
+}
+
+nav label{
+display:block;
+float:right;
+font-size:35px;
+margin:20px
+}
+
+}
+
+
+.btn1{
+color:black;
+background:yellow;
+padding:20px;
+border-radius:20px;
+border:0px;
+font-family:arial;
+}
+.btn1 a{
+color:black;
+text-decoration:none;
+font-weight:bold
+}
+.btn1:hover {
+cursor:pointer;
+font-weight:bold;
+transform:scale(1.05)
+}
+
+
+
+.header{
+margin-top:100px;
+width:100%;
+height:100px;
+}
+.header h1{
+text-align:center;
+padding-top:30px;
+}
+.Ca{
+height:300px;
+width:100%;
+background:re;
+display:flex;
+}
+.l{
+height:500px;
+width:65%;
+background:blu;
+}
+.img{
+margin-top:60px;
+margin-left:50px;
+width:750px;
+height:350px;
+}
+.r{
+height:500px;
+width:35%;
+background:gree;
+}
+.r h3{
+margin-top:100px;
+}
+
+.header1{
+margin-top:200px;
+width:100%;
+height:100px;
+background:re;
+}
+.header1 h1{
+padding-top:20px;
+padding-left:50px;
+}
+
+.ca1{
+height:250px;
+width:100%;
+background:re;
+display:flex;
+}
+.l1{
+height:250px;
+width:50%;
+background:blu;
+}
+.r1{
+height:250px;
+width:50%;
+background:gree;
+}
+.l1 h1{
+padding-left:50px;
+}
+.l1 p{
+padding-left:50px;
+}
+
+
+.ca2{
+margin-top:100px;
+height:250px;
+width:100%;
+background:re;
+display:flex;
+}
+.l2{
+height:250px;
+width:50%;
+background:blu;
+}
+.r2{
+height:250px;
+width:50%;
+background:gree;
+}
+.l2 h1{
+padding-left:50px;
+}
+.l2 p{
+padding-left:50px;
+}
+
+.ca3{
+margin-top:100px;
+height:250px;
+width:100%;
+background:re;
+display:flex;
+}
+.l3{
+height:250px;
+width:50%;
+background:blu;
+}
+.l3 h1{
+padding-left:50px;
+}
+.l3 p{
+padding-left:50px;
+}
+.r3{
+height:250px;
+width:50%;
+background:gree;
+}
+.header2{
+margin-top:50px;
+height:250px;
+width:100%;
+background:re;
+}
+.header2 h6{
+margin-left:50px;
+margin-right:50px;
+}
+
+.footer-bottom{
+background-color:black;
+color:white;
+}
+
+
+
+@media(max-width:700px){
+
+.ca{
+flex-direction:column;
+}
+.l {
+width:100%;
+}
+.l .img{
+width:80%;
+}
+.r {
+width:100%;
+}
+.r h3{
+padding-left:40px;
+}
+.header1{
+margin-top:450px;
+}
+.ca1{
+flex-direction:column;
+}
+.l1{
+width:100%;
+}
+.r1 {
+width:100%;
+}
+.r1 h1,p{
+padding-top:20px;
+padding-left:40px;
+}
+
+.ca2{
+flex-direction:column;
+margin-top:250px;
+}
+.l2{
+width:100%;
+}
+.r2 {
+width:100%;
+}
+.r2 h1,p{
+padding-top:20px;
+padding-left:40px;
+}
+
+.ca3{
+flex-direction:column;
+margin-top:300px;
+}
+.l3{
+width:100%;
+}
+.r3 {
+width:100%;
+}
+.r3 h1,p{
+padding-top:20px;
+padding-left:40px;
+}
+
+.footer-bottom{
+margin-top:150px;
+}
+</style>
+</head>
+<body>
+
+<nav>
+<img src="mcd.jpg"/>
+<label for="check"><i class="fa-solid fa-bars"></i></label>
+<input type="checkbox" id="check"/>
+<ul>
+<li><a href="md.html">Home</a></li>
+<li><a href="md.html">Menu</a></li>
+<li><a href="careers.html">Careers</a></li>
+<li><a href="about us.html">About us</a></li>
+<li><a href="Contact us.html">Contact us</a></li>
+<li><button><a href="sign up.html">Sign For email</a></button></li>
+<li><button style="background:yellow;color:black"><a href="#">Order Now</a></button></li>
+</ul>
+</nav>
+
+
+
+
+
+<div class="header">
+<h1>McDonald Careers</h1>
+</div>
+
+<div class="Ca">
+<div class="l">
+<img class="img" src="car.jpg"/>
+</div>
+<div class="r">
+<h3>Looking for general information about McDonald’s employment? Head to our Careers page to learn more about McDonald's corporate careers and opportunities at McDonald's-brand restaurants.</h3><br>
+<button class="btn1" style="margin-left:50px"><a href="#">Learn More</a></button>
+</div>
+</div>
+
+<div class="header1">
+<h1>Come work with Us</h1>
+</div>
+
+<div class="Ca1">
+<div class="l1">
+<h1>Restaurant JOBS</h1><br>
+<p>Looking for general information about McDonald’s employment? Head to our Careers page to learn more about McDonald's corporate careers and opportunities at McDonald's-brand restaurants.</p><br>
+<button class="btn1" style="margin-left:50px"><a href="#">Apply Today</a></button>
+</div>
+<div class="r1">
+<h1>Corporate Careers</h1><br>
+<p>Give your talent and skillset a home at our corporate headquarters and regional field offices.<br>
+Explore our corporate career options and apply today.</p><br>
+<button class="btn1" style="margin-left:50px"><a href="#">Learn More</a></button>
+</div>
+</div>
+
+<div class="Ca2">
+<div class="l2">
+<h1>Archways to Opportunity®</h1><br>
+<p>Get the skills to take you to the next level with the Archways to Opportunity program. Whether you’re looking to improve your English skills, complete your high school diploma, or get tuition assistance for college, McDonald’s and its participating franchises are dedicated to helping you reach your educational goals.</p><br>
+<button class="btn1" style="margin-left:50px"><a href="#">Learn more</a></button>
+</div>
+<div class="r2">
+<h1>University Programs</h1><br>
+<p>Fresh out of college? Let’s get you on your way to a fulfilling career.
+Explore corporate early career programs and internships that are specifically crafted to provide hands-on development, both professionally and technically.</p><br>
+<button class="btn1" style="margin-left:50px"><a href="#">Learn More</a></button>
+</div>
+</div>
+
+<div class="Ca3">
+<div class="l3">
+<h1>Global Opportunities</h1><br>
+<p>Take your next move even further and broaden your horizons with positions with McDonald’s or one of its independent franchisees outside of the United States. Visit the global landing page to find out more.</p><br>
+<button class="btn1" style="margin-left:50px"><a href="#">Visit page</a></button>
+</div>
+<div class="r3">
+
+</div>
+</div>
+
+<div class="header2">
+<h6>McDonald's Corporation and McDonald’s USA, LLC (“McDonald’s”) are committed to a policy of Equal Employment Opportunity and will not discriminate against an applicant or employee on the basis of race, color, sex, religion, national origin, citizenship status, age, disability, veteran or military status, sexual orientation, gender identity/expression, genetic information, or any other legally-recognized protected basis under federal, state or local laws, regulations or ordinances. Applicants with disabilities may be entitled to reasonable accommodation under the terms of the Americans with Disabilities Act and certain state or local laws. A reasonable accommodation is a change or adjustment to a job or work environment that will ensure an equal employment opportunity without imposing an undue hardship on the operation of the business. For corporately owned restaurant locations, please contact restaurantjobs.support@us.mcd.com if you need assistance completing any forms or to otherwise participate in the application process.<br><br>Independent franchisees are Equal Opportunity employers committed to diverse and inclusive workforces. Franchisees are independent business people and not employed by McDonald’s. Thus, each franchisee and each franchisee restaurant is unique and the franchisee is alone responsible for all employment matters in their restaurant, including the terms and conditions of employment for their employees, such as hiring, firing, discipline, supervision, staffing and scheduling. The benefits described or referenced here are available at McDonald’s-owned restaurants and the restaurants of participating franchisees. Depending on the restaurant location you select, the job for which you apply may be in a restaurant owned and operated by an independent franchisee, and not with McDonald’s. This means the franchisee, not McDonald’s, is responsible for all employment matters at the restaurant. If you are hired for the job, the franchisee will be your employer, not McDonald’s. For franchisee restaurant locations, please contact the franchisee organization directly to the extent you need assistance in completing forms or otherwise participating in that franchisee’s application process.</h6>
+</div>
+
+
+<div class="footer-bottom">
+      
+       
+          <div class="footer_widget">
+            <p>Connect with Us:</p>
+           <!--- <ul>
+              <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>-->
+        
+       
+          <p class="copy-right">Copyright &copy; 2023 Mc Donald. All Rights Reserved</p>
+       
+      
+    </div>
+
+</body>
+</html>
